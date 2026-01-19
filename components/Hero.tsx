@@ -94,7 +94,7 @@ export default function Hero() {
                         className="relative z-10 w-full max-w-[280px] sm:max-w-[400px] xl:max-w-[600px]"
                     >
                         <Image
-                            src="/red-magic.png"
+                            src="/red-magic.webp"
                             alt="Cinema Camera"
                             width={800}
                             height={800}

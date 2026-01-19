@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "RealX 3D | Crafting Reality",
+  title: "Real3DX | Crafting Reality",
   description: "High-end VFX Studio",
 };
 

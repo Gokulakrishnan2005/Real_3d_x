@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Menu, Search } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
     return (
@@ -14,13 +15,15 @@ export default function Navbar() {
         >
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
-                {/* Simple Logo Placeholder if needed, or stick to text */}
-                <div className="w-8 h-8 flex items-center justify-center bg-[#DC143C] rounded-sm transform rotate-45">
-                    <span className="transform -rotate-45 text-white font-bold text-xs">R</span>
+                <div className="relative w-[150px] h-[43px]">
+                    <Image
+                        src="/RealX-3D-B1-300x86.webp"
+                        alt="Real3DX Logo"
+                        fill
+                        className="object-contain"
+                        priority
+                    />
                 </div>
-                <span className="text-xl md:text-2xl font-bold tracking-widest text-[#E0E0E0] font-syncopate ml-2">
-                    REALX
-                </span>
             </Link>
 
             {/* Desktop Navigation */}
